@@ -18,7 +18,6 @@ export default function TaskDetail() {
   return (
     <div className="task-detail">
       <h1>{task.title}</h1>
-      <p><strong>ID:</strong> {task.id}</p>
       <div className="description">
         <h3>Description</h3>
         <p>{task.description}</p>
